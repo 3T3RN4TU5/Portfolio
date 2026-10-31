@@ -1,9 +1,9 @@
 // Everything the page says about the work lives here, so updating the portfolio means editing data, not markup.
 
-export const GITHUB_USER = "Jeevan2410";
+export const GITHUB_USER = "3T3RN4TU5";
 
 export const LINKS = {
-  github: "https://github.com/Jeevan2410",
+  github: "https://github.com/3T3RN4TU5",
   linkedin: "https://www.linkedin.com/in/jeevan-kumar001",
 };
 
@@ -16,7 +16,7 @@ export const PROJECTS = [
     stack: ["Next.js 16", "TypeScript", "Zod", "i18n"],
     image: "assets/work/adikecast.webp",
     live: "https://adikecast.vercel.app",
-    code: "https://github.com/Jeevan2410/price-forecasting",
+    code: "https://github.com/3T3RN4TU5/price-forecasting",
     featured: true,
   },
   {
@@ -25,7 +25,7 @@ export const PROJECTS = [
     stack: ["Three.js", "TypeScript", "Vite", "IndexedDB"],
     image: "assets/work/rpg.webp",
     live: "https://tiny-planet-action-rpg.vercel.app",
-    code: "https://github.com/Jeevan2410/Tiny-Planet-Action-RPG",
+    code: "https://github.com/3T3RN4TU5/Tiny-Planet-Action-RPG",
     featured: true,
   },
   {
@@ -35,7 +35,7 @@ export const PROJECTS = [
     stack: ["React", "Supabase", "Framer Motion"],
     image: "assets/work/booknest.webp",
     live: "https://book-nest-lemon-eight.vercel.app",
-    code: "https://github.com/Jeevan2410/BookNest",
+    code: "https://github.com/3T3RN4TU5/BookNest",
   },
   {
     name: "Tiny Planet Courier",
@@ -43,14 +43,14 @@ export const PROJECTS = [
     stack: ["Three.js", "Supabase Realtime"],
     image: "assets/work/courier.webp",
     live: "https://tiny-planet-courier.vercel.app",
-    code: "https://github.com/Jeevan2410/Tiny-Planet-Courier",
+    code: "https://github.com/3T3RN4TU5/Tiny-Planet-Courier",
   },
   {
     name: "CineGen API",
     summary:
       "Backend for AI video and image generation: JWT auth and roles, credits, async jobs on a queue, signed webhooks and a fallback poller.",
     stack: ["Node.js", "Express", "MongoDB", "Cloudinary"],
-    code: "https://github.com/Jeevan2410/CineGen-API",
+    code: "https://github.com/3T3RN4TU5/CineGen-API",
     terminal: [
       ["$", "curl -X POST /v1/jobs -H 'Authorization: Bearer …'"],
       ["←", "202 Accepted  { id: 'job_8f2c', status: 'queued' }"],
@@ -63,7 +63,7 @@ export const PROJECTS = [
     name: "QuoteFlow",
     summary: "Quote-to-cash SaaS for small service businesses: enquiries, quotes, jobs and follow-ups in one place.",
     stack: ["Next.js 16", "TypeScript", "Cloudflare Workers"],
-    code: "https://github.com/Jeevan2410/projrc",
+    code: "https://github.com/3T3RN4TU5/projrc",
     terminal: [
       ["$", "new enquiry from Asha · bathroom retile"],
       ["→", "quote Q-1042 drafted · ₹48,500"],
@@ -80,49 +80,49 @@ export const REBUILDS = [
     summary: "Animated sky that follows the weather: canvas rain and snow, storms, stars at night. Open-Meteo, no API key.",
     image: "assets/work/weather.webp",
     live: "https://weather-app-lac-iota-59.vercel.app",
-    code: "https://github.com/Jeevan2410/WeatherApp",
+    code: "https://github.com/3T3RN4TU5/WeatherApp",
   },
   {
     name: "Calculator",
     summary: "A safe parser instead of eval(), live answers, history, keyboard support and a 3D tilt.",
     image: "assets/work/calculator.webp",
     live: "https://calculator-six-iota-56.vercel.app",
-    code: "https://github.com/Jeevan2410/Calculator",
+    code: "https://github.com/3T3RN4TU5/Calculator",
   },
   {
     name: "Jeevan Travels",
     summary: "Was a template with fake login forms and 52 MB of video; now a trip planner on a 3D dotted globe with live weather and share links.",
     image: "assets/work/travels.webp",
     live: "https://travel-website-ashen-seven.vercel.app",
-    code: "https://github.com/Jeevan2410/Travel-Website-",
+    code: "https://github.com/3T3RN4TU5/Travel-Website-",
   },
   {
     name: "JeevanKitchen",
     summary: "Was a restaurant template with fake forms; now recipes with a cook mode, one-tap timers from the method, and a screen that stays awake.",
     image: "assets/work/kitchen.webp",
     live: "https://food-website-lovat-pi.vercel.app",
-    code: "https://github.com/Jeevan2410/Food-Website",
+    code: "https://github.com/3T3RN4TU5/Food-Website",
   },
   {
     name: "Halcyon One",
     summary: "Was a store demo with brand names and invented reviews; now a concept smartwatch page with a 3D Three.js model that turns as you scroll.",
     image: "assets/work/halcyon.webp",
-    live: "https://jeevan2410.github.io/Landing-Page/",
-    code: "https://github.com/Jeevan2410/Landing-Page",
+    live: "https://3t3rn4tu5.github.io/Landing-Page/",
+    code: "https://github.com/3T3RN4TU5/Landing-Page",
   },
   {
     name: "Reelhouse",
     summary: "Was a copied streaming sign-up page; now an original show browser on TVmaze: billboard, rows, details, search, My List.",
     image: "assets/work/reelhouse.webp",
-    live: "https://jeevan2410.github.io/Netflix-Clone/",
-    code: "https://github.com/Jeevan2410/Netflix-Clone",
+    live: "https://3t3rn4tu5.github.io/Netflix-Clone/",
+    code: "https://github.com/3T3RN4TU5/Netflix-Clone",
   },
   {
     name: "To-do",
     summary: "Drag to reorder, undo, filters, FLIP animations and confetti; safe JSON storage instead of saved HTML.",
     image: "assets/work/todo.webp",
-    live: "https://jeevan2410.github.io/TO-DO-LIST/",
-    code: "https://github.com/Jeevan2410/TO-DO-LIST",
+    live: "https://3t3rn4tu5.github.io/TO-DO-LIST/",
+    code: "https://github.com/3T3RN4TU5/TO-DO-LIST",
   },
 ];
 
