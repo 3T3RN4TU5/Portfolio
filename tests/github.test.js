@@ -17,7 +17,7 @@ function memoryStorage() {
 }
 
 test("mergedQuery asks for merged PRs to other people's repositories", () => {
-  assert.equal(mergedQuery("Jeevan2410"), "is:pr is:merged author:Jeevan2410 -user:Jeevan2410");
+  assert.equal(mergedQuery("3T3RN4TU5"), "is:pr is:merged author:3T3RN4TU5 -user:3T3RN4TU5");
 });
 
 test("toContributions shapes search results, newest first", () => {
